@@ -1,0 +1,40 @@
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: background color for the entire form area */
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.add form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-img-upload, .add-product-name, .add-product-description, .add-category-price {
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}

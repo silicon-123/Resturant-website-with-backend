@@ -1,0 +1,45 @@
+/* Home.css */
+.admin-home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .admin-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .food-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .food-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px); /* Example: 3 items per row */
+    box-sizing: border-box;
+  }
+  
+  .food-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .food-item h3 {
+    margin: 10px 0 5px;
+  }
+  
+  .food-item p {
+    margin: 0;
+  }
+  
